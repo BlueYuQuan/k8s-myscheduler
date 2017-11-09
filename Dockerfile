@@ -4,7 +4,7 @@
 #Author: songjinquan
 
 #基于基础镜像
-FROM 10.128.0.118:5000/sjqtest/java:8
+FROM registry.cn-hangzhou.aliyuncs.com/sjq-study/java：8
 #维护者
 MAINTAINER 441452752@qq.com
 #将当前目录下的文件全部复制到基础镜像的/usr/src/myapp目录下
